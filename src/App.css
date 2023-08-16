@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+body{
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ9OOJFHMy8aJdK4TC261QVKx-U2ZwvJdoZVdeQdr-R3_p65rCeHYFsnNOV2vTODpHhQ8&usqp=CAU');
+background-size: cover;
+}
+  
+
+
+.slide1{
+  background-image: url('https://24slides.com/templates/assets/templates-previews/bGVj48QNTnoskgaDFrRosGpB03skZwy4qYc3Ax3d.jpg');
+  background-size: cover;
+  height: 60vh;
+
+}
+.slide2{
+  background-image: url("https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2019/03/Top-Freelancer-Stats-You-Need-to-Know-840x430.png");
+  background-size: cover;
+  height:60vh;
+}
+.slide3{
+  background-image: url('https://www.wizcase.com/wp-content/uploads/2020/09/Top-30-In-Demand-Freelance-Skills-to-Learn.jpg');
+  background-size: cover;
+  height:60vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.about-1{
+  background-image: url('https://media.istockphoto.com/id/1284549946/photo/digital-marketing-concept-online-advertisement.jpg?s=612x612&w=0&k=20&c=KWrdOaQbNF41m3TDDSn9JqvKDeHuMtvDiMPJOCGP4d0=');
+  height: 70vh;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-body{
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+ 
+
+.card-bodyh{
+  height: 25px;
+  overflow: hidden;
+}
+
+.heading{
+ margin: 30px;
+ padding: 10px;
+ color: aliceblue; 
+}
+
+.about{
+  margin: 30px;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color: aliceblue;
+ 
+
 }
 
-.App-link {
-  color: #61dafb;
+.nav-item{
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.containt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.card-bodyl{
+
+  justify-content: space-between;
+   color: rgb(39, 31, 31);
+  
+}
+.container{
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+container-img{
+  justify-content: space-between;
+  height: 30vh;
+}
+
+.img-about{
+  
+  width: 60vh;
+  height: 60vh;
+}
+
+.my-card{
+  backdrop-filter: blur(12px);
+  background-color: rgba(248, 220, 201, 0.596);
+  border-radius: 50px 0px ;
 }
