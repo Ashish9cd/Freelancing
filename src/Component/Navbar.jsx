@@ -27,6 +27,7 @@ const Navbar = () => {
   return (
     <nav classname="navbar bg-dark border-bottom border-body"data-bs-theme="dark">
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <img src="image" alt="" />
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
         </a>
@@ -76,15 +77,11 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/Add project">
+              <NavLink className="nav-link" to="/Addproject">
               Add project
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/search Job">
-              <button type="button" class="btn btn-info">Search job</button>
-              </NavLink>
-            </li>
+            
       
 
             {showLoginOption()}

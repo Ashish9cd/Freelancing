@@ -37,15 +37,16 @@ const About = () => {
   </div>
 </div>
 <div>
-     
-  <div className="carousel-inner">
-    <div className="carousel-item active " data-bs-interval={10000}>
-      <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" className="d-block w-100 " alt="..." />
-      
+    
+  <div className="carousel-inner ">
+    <div className="about-1 active " data-bs-interval={10000}>
+      {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiBFhdAQjHa2hzOuIYDK0eJ7HinloqFh8NOg&usqp=CAU" className="d-block w-100 " alt="..." /> */}
+  
+        
+      </div>
     </div>
     </div>
-    </div>
-
+  
     </div>
     
     

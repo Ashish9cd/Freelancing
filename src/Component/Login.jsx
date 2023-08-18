@@ -54,6 +54,7 @@ const Login = () => {
   });
 
   return (
+    <div className="logo-bg">
     <din className="login">
     <div className="d-flex justify-content-center align-items-center vh-100">
       <div className="my-card w-25 shadow-lg ">
@@ -75,7 +76,9 @@ const Login = () => {
         </div>
       </div>
     </div>
+    
     </din>
+    </div>
   );
 };
 

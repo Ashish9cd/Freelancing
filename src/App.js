@@ -10,6 +10,7 @@ import Home from './Component/Home';
 import Login from './Component/Login';
 import Navbar from './Component/Navbar';
 import Signup from './Component/Signup';
+import Footer from './Footer';
 import UserAuth from './UserAuth';
 import { UserProvider } from './UserContext';
 
@@ -34,11 +35,14 @@ function App() {
       <Route path='browse' element={ <UserAuth> <Browse/> </UserAuth>}/>
       <Route path='addproject' element={ <Addproject/>}/>
       <Route path='about us' element={ <About/>}/>
+      <Route path='footer' element={ <Footer/>}/>
       
       
        
   
      </Routes>
+
+     <Footer></Footer>
      </UserProvider>
      </BrowserRouter>
     </div>

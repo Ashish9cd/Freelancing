@@ -64,7 +64,7 @@ const Signup = () => {
 
   return (
     <div className="d-flex justify-content-center align-items-center vh-100">
-      <div className="card w-25 shadow-lg rounded-5">
+      <div className="card-signup w-25 shadow-lg rounded-5">
         <div className="card-body p-5">
           <i className="fa-solid fa-lock fa-3x d-block text-center" />
           <h2 className="text-center my-5">Signup Form</h2>

@@ -13,10 +13,10 @@ const Browse = () => {
         <div className="card">
           <img src={laptop.image} alt="" />
           <div className="card-body">
-            <h4>{laptop.title}</h4>
-            <p>{laptop.rating} avg rating </p>
-            <p>{laptop.reviews} reviews</p>
-            <h2>₹{laptop.price}</h2>
+            {/* <h4>{laptop.title}</h4> */}
+            {/* <p>{laptop.rating} avg rating </p> */}
+            {/* <p>{laptop.reviews} reviews</p> */}
+            {/* <h2>₹{laptop.price}</h2> */}
           </div>
         </div>
       </div>

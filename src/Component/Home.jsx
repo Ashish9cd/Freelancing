@@ -4,6 +4,7 @@ import { Form } from 'react-router-dom';
 const Home = () => {
   return (
    <div>
+   
     <div id="carouselExampleDark " className="carousel carousel-dark slide">
   <div className="carousel-indicators">
     <button
@@ -169,6 +170,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+
   </div>
 </>
 

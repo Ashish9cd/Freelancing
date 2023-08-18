@@ -1,6 +1,6 @@
 body{
-background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ9OOJFHMy8aJdK4TC261QVKx-U2ZwvJdoZVdeQdr-R3_p65rCeHYFsnNOV2vTODpHhQ8&usqp=CAU');
-background-size: cover;
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9zjULayjij3X4Fq67OG2A7i3oTPMJsCnkgQ&usqp=CAU');
+background-size:cover;
 }
   
 
@@ -24,23 +24,12 @@ background-size: cover;
 
 
 .about-1{
-  background-image: url('https://media.istockphoto.com/id/1284549946/photo/digital-marketing-concept-online-advertisement.jpg?s=612x612&w=0&k=20&c=KWrdOaQbNF41m3TDDSn9JqvKDeHuMtvDiMPJOCGP4d0=');
-  height: 70vh;
-  background-size: cover;
+background-color: aliceblue;
+width: 225vh;
+height: 50vh;
+
+
 }
-
-.card-body{
- 
-}
-
-
- 
-
-.card-bodyh{
-  height: 25px;
-  overflow: hidden;
-}
-
 .heading{
  margin: 30px;
  padding: 10px;
@@ -76,17 +65,15 @@ background-size: cover;
    color: rgb(39, 31, 31);
   
 }
-.container{
-  margin-top: 50px;
-  justify-content: center;
-  align-items: center;
+ .container{ 
+margin-top: 50px;
 }
 
-container-img{
-  justify-content: space-between;
-  height: 30vh;
+.user-contact {
+  background-color: #CE93D8;
+  border-radius: 50px 0px 50px;
 }
-
+  
 .img-about{
   
   width: 60vh;
@@ -95,6 +82,53 @@ container-img{
 
 .my-card{
   backdrop-filter: blur(12px);
-  background-color: rgba(248, 220, 201, 0.596);
-  border-radius: 50px 0px ;
+  background-color: rgba(240, 240, 240, 0.479);
+  border-radius: 50px 0px 50px 0px;
 }
+.card-signup {
+  backdrop-filter: blur(12px);
+  background-color: rgba(226, 209, 236, 0.4);
+}
+
+.add-containair{
+  margin:30px;
+  padding: 30px;
+  width: 90vh;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.my-card-add{
+  backdrop-filter: blur(12px);
+  background-color: rgba(250, 243, 238, 0.521);
+ 
+}
+
+.Add-project{
+  background-image: url('https://img.freepik.com/free-vector/young-programmer-working-laptop-computer-cartoon-character_24797-2123.jpg?w=2000');
+  background-size: cover;
+}
+
+.contact-img{
+  margin-left: 50px;
+  width: 50vh;
+}
+
+/*.list {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/609/511/639/colorful-neon-green-purple-wallpaper-preview.jpg');
+  background-size:cover;
+}*/
+
+/* .logo-bg{ 
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDMVgks8Wl3G4aW0eV5z0bL408mHoZX1YSpns_z1qIGEOZIkb5VK5R0nd3bQhYmIeXo-o&usqp=CAU');
+  background-size: cover; 
+}*/
+
+
+
+
+
+
+
+
